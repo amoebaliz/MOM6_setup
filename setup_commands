@@ -1,0 +1,23 @@
+# Make sure this directory lives inside the same one you want to put your MOM6 configuration
+# Put MOM6 file is one directory higher
+
+cd ..
+git clone --recursive https://github.com/NOAA-GFDL/MOM6-examples.git
+cd MOM6-examples/src 
+
+mv MOM6 MOM6-GFDL
+git clone https://github.com/ESMG/MOM6.git
+cd MOM6
+git submodule init
+git submodule update
+
+cd ../../..
+
+# Copy over gaea compile script
+
+cp ../Andrew.C.Ross/git/my_mom6/compile_gaea.bash .
+
+# Update the directory paths within the compile script to 'point' to 'MOM6_examples'
+
+./compile_gaea.bash
+
