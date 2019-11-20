@@ -41,4 +41,8 @@ cp ../Andrew.C.Ross/git/my_mom6/compile_gaea.bash .
 # modify file for given SODA and python environment versions
 
 #
+# MOSAIC FILES
+# use https://github.com/ESMG/ESMG-configs.git
+# ESMG-configs/CCS1/preprocessing/
+# using the ROMS grid CCS_7k_0-360_fred_grd.nc: ./make_grid
 
