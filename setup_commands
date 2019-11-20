@@ -21,3 +21,24 @@ cp ../Andrew.C.Ross/git/my_mom6/compile_gaea.bash .
 
 ./compile_gaea.bash
 
+####### INPUT FILES FOR CCS
+
+# Andrew.C.Ross files
+/work/Andrew.C.Ross/mom6
+
+# Andrew's JRA files
+/work/Andrew.C.Ross/jra
+
+# Andrew's SODA files
+/work/Andrew.C.Ross/soda/3.12.2
+
+# Creating mom6 directory in my work directory and link to his soda and jra files
+
+# INITIAL and OPEN BOUNDARY CONDITIONS
+# Use PyCNAL_regridding: https://github.com/ESMG/PyCNAL_regridding
+# PyCNAL_regridding/example/SODA3.3.1/Creating_Initial_and_Boundary_conditions_from_SODA3.py
+
+# modify file for given SODA and python environment versions
+
+#
+
